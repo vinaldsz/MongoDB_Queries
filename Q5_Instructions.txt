@@ -1,0 +1,7 @@
+Instructions to separate user information into a separate collection 
+* Connect to DB - port 27107
+* Define collection name
+* Create a set to store unique values of userIds
+* Iterate through each of the tweet in tweetCollection
+* If the userid doesn't exist in the set, add to the set
+* InsertOne user to the collection
